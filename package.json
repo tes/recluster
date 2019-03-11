@@ -1,5 +1,5 @@
 {
-  "name": "recluster",
+  "name": "@tesglobal/recluster",
   "version": "0.4.5",
   "description": "Clustering library with support for zero-downtime reloading",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doxout/recluster.git"
+    "url": "git://github.com/tes/recluster.git"
   },
   "keywords": [
     "load",
@@ -23,12 +23,15 @@
   ],
   "author": "spion",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "gitHead": "00dcf38ed8e8198da83e350372f92237f81677d7",
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "devDependencies": {
     "tap": "~0.4.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tes/recluster/issues"
+  },
+  "homepage": "https://github.com/tes/recluster#readme"
 }
